@@ -1,4 +1,5 @@
 <grepper>
+
   <url-template>
     <url>http://www.discuss.com.hk/apis/v3/api.php</url>
     <method>GET</method>
@@ -12,12 +13,12 @@
       <param key="device">android</param>
       <param key="action">view</param>
       <param key="class">thread</param>
-      <param key="tid">{system}</param>
-      <param key="authorid">{system}</param>
+      <param key="tid">{thread-id}</param>
+      <param key="authorid">{author-id}</param>
       <param key="page">1</param>
 
       <param key="apiuser">forumv3_android</param>
-      <param key="uuid">{system}</param>
+      <param key="uuid">{uuid}</param>
       <param key="apikey">b817d96a2a6d131ff71722e4cbf494cf</param>
       <param key="apiversion">na</param>
       <param key="buildcode">74</param>
@@ -34,6 +35,7 @@
       <param key="num">15</param>
     </params>
   </url-template>
+
   <grep>
     <threads>
       <therad id="25643471" /><!-- 苦虎府猴年九鳥估無辛苦7 -->
@@ -42,4 +44,5 @@
       <author id="5355969" /><!-- 小虎 -->
     </authors>
   </grep>
+
 </grepper>

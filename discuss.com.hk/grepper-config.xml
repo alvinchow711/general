@@ -1,6 +1,13 @@
 <grepper>
   <url-template>
     <url>http://www.discuss.com.hk/apis/v3/api.php</url>
+    <method>GET</method>
+    <headers>
+      <header key="Cache-Control">no-cache, no-store, must-revalidate</header>
+      <header key="Pragma">no-cache</header>
+      <header key="Expires">0</header>
+    </headers>
+    <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0</user-agent>
     <params>
       <param key="device">android</param>
       <param key="action">view</param>

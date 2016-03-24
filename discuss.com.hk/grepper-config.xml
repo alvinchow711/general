@@ -16,6 +16,7 @@
       <param key="tid">{thread-id}</param>
       <param key="authorid">{author-id}</param>
       <param key="page">1</param>
+      <param key="num">1000</param>
 
       <param key="apiuser">forumv3_android</param>
       <param key="uuid">{uuid}</param>
@@ -32,7 +33,6 @@
       <param key="osversion">22</param>
 
       <param key="low_data">0</param>
-      <param key="num">15</param>
     </params>
   </url-template>
 
